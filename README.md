@@ -1,12 +1,16 @@
 # Analyst Poll Bot
 
+Clone of my public [analyst-poll-bot](https://github.com/just-rich/analyst-poll-bot) make any updates to it if any are done here.
+
+## Overview
+
 Analyst Poll Bot is a Discord bot designed to facilitate daily polls in specific channels of a Discord server. It automates the process of collecting user feedback on whether they were "green" or "red" for the day following a specific analyst. The bot also logs these results, providing both daily and all-time statistics for each poll. It stores all the poll results in a database using SQLite.
 
 It updates the poll message in real-time to show the current results. It sends a message to a specified log channel that updates in real-time to show daily & all time results for each channel a poll is in.
 
 ## Features
 
-- **Automated Polls**: Polls are automatically posted daily at 1:15 PM PST in specified channels.
+- **Automated Polls**: Polls are automatically posted Monday-Friday at 1:05 PM PST in specified channels.
 - **Manual Poll Trigger**: Polls can be manually triggered using the `!startpolls` command. *This simulates as if a daily poll has been sent, for testing.*
 - **User Interaction**: Users can interact with the poll by selecting one of the options: "Green", "Red", or "Did not follow/trade".
 - **Result Logging**: Daily and all-time results are logged in a specified channel, including the number of votes and their percentages.
