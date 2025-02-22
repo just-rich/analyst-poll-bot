@@ -1,0 +1,10 @@
+{
+  "token": "YOUR_BOT_TOKEN",
+  "logChannelId": "LOG_CHANNEL_ID",
+  "pollChannels": [
+    "CHANNEL_1_ID",
+    "CHANNEL_2_ID",
+    "CHANNEL_3_ID",
+    "CHANNEL_4_ID"
+  ]
+}

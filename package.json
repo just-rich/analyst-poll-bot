@@ -1,0 +1,20 @@
+{
+  "name": "analyst-poll-bot",
+  "version": "1.0.0",
+  "description": "Sends daily poll in specified channels, updates msg with poll results. Sends & updates log msg in specified channels.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "node-cron": "^3.0.0",
+    "sqlite3": "^5.0.0"
+  },
+  "author": {
+    "name": "just-rich",
+    "url": "https://richw.xyz",
+    "email": "rich@richw.xyz"
+  },
+  "license": "MIT"
+}
